@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Lunch Selection</title>
+    <link rel="stylesheet" href="A3.css" />
+
+</head>
+
+<body>
+<div class="wrapper">
+<header>
+<h1>SHOWTIME BISTRO</h1>
+</header>
+<nav>
+<ul id="topnav">
+<li><a href="A3.html">Home</a></li>
+<li><a href="aboutus.html">AboutUs</a></li>
+<li><a href="A2.html">Order</a></li>
+<li><a href="#" onclick="Table()" >Schedule</a></li>
+<li><a href="A1.html">BMR</a></li>
+<li><a href="Membership.html">Sign Up</a></li>
+<li><a class="active" href="Neworder.html">Lunch</a></li>
+</ul>
+</nav><br><br><br>
+<article>
+<h2>Lunch Selections</h2>
+<form>
+    <input type="checkbox" id="item1" value="1195" />
+    <label for="item1">Chicken wrap ($11.95)</label><br>
+    <input type="checkbox" id="item2" value="795" />
+    <label for="item2">Ferrero rocher milkshake($7.95)</label><br>
+    <input type="checkbox" id="item3" value="595" />
+    <label for="item3">Fine Cheesecake ($5.95)</label><br>
+    <input type="checkbox" id="item4" value="799" />
+    <label for="item4">Fried chicken ($7.99)</label><br>
+    <input type="checkbox" id="item5" value="895" />
+    <label for="item5">Showtime Classic Poutine ($8.95)</label><br>
+    <input type="checkbox" id="item6" value="999" />
+    <label for="item6">Fried halibut ($9.99)</label><br>
+    <input type="checkbox" id="item7" value="1195" />
+    <label for="item7">The big smoke sandwich ($11.95)</label><br>
+    <input type="checkbox" id="item8" value="799" />
+    <label for="item8">Hamburger (7.99)</label><br>
+    <input type="checkbox" id="item9" value="1299" />
+    <label for="item9">Grilled salmon ($12.99)</label><br>
+    <input type="checkbox" id="item10" value="599" />
+    <label for="item10">Side salad ($5.99)</label><br><br>
+    <input type="button" value="Calculate" id="btn" />&nbsp;
+    <input type="reset" value="Start Again" id="rbtn" />
+</form><br><hr>
+<table>
+    <colgroup>
+         <col class="label" />
+         <col class="amount" />
+    </colgroup>
+          <tbody>
+             <tr>
+               <td>Item total: </td>
+               <td>$0.00</td>
+             </tr>
+             <tr>
+                <td>Tax: </td>
+                <td>$0.00</td>  
+             </tr>
+             <tr>
+                <td>Total with tax: </td>
+                <td>$0.00</td>
+             </tr>
+         </tbody>
+</table>
+</article><hr>
+<footer>
+<h6>&copy;&nbsp;Ibrahim Patel - COMP125 - Summer2020</h6>
+</footer>
+</div>
+<script src="Neworder.js"></script>
+<script src="A3.js"></script>
+<script src="schedule.js"></script>
+</body>
+
+</html>
